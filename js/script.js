@@ -59,7 +59,8 @@
 		function verificaSetor(){
 
 
-			if(document.getElementById('setorIdade').value == '' || isNaN(document.getElementById('setorIdade').value){
+			//Corrigir ddocument.getElementById('setorIdade').value
+			if(document.getElementById('setorIdade').value == ''){
 
 				alert('Insira uma idade válida')
 
