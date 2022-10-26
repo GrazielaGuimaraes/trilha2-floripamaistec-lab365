@@ -71,19 +71,19 @@
 
 			if(idade < 14){
 				console.log('Idade: ' + idade + ', setor amarelo')
-				document.getElementById('setor').textContent = 'Idade: ' + idade + ', setor amarelo'
+				document.getElementById('setor').textContent = 'Idade: ' + idade + ' anos, setor amarelo'
 
 			} else if(idade >= 14 && idade < 18) {
 				console.log('Idade: ' + idade + ', setor azul')
-				document.getElementById('setor').textContent = 'Idade: ' + idade + ', setor azul'
+				document.getElementById('setor').textContent = 'Idade: ' + idade + ' anos, setor azul'
 
 			} else if(idade >= 18 && idade < 25) {
 				console.log('Idade: ' + idade + ', setor branco')
-				document.getElementById('setor').textContent = 'Idade: ' + idade + ', setor branco'
+				document.getElementById('setor').textContent = 'Idade: ' + idade + ' anos, setor branco'
 
 			} else{
 				console.log('Idade: ' + idade + ', setor verde')
-				document.getElementById('setor').textContent = 'Idade: ' + idade + ', setor verde'
+				document.getElementById('setor').textContent = 'Idade: ' + idade + ' anos, setor verde'
 			}
 
 		} //fim else
