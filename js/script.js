@@ -59,7 +59,7 @@
 		function verificaSetor(){
 
 
-			//Corrigir ddocument.getElementById('setorIdade').value
+			//Corrigir isNAN(document.getElementById('setorIdade').value)
 			if(document.getElementById('setorIdade').value == '')){
 
 				alert('Insira uma idade válida')
