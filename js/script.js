@@ -8,7 +8,8 @@
 				function calculadora(){
 
 					if(document.getElementById('valor1').value != '' && document.getElementById('valor2').value != ''
-						&& document.getElementById('operacoes').value != '') {
+						&& document.getElementById('operacoes').value != ''
+					   && !isNaN(document.getElementById('valor1').value) && !isNaN(document.getElementById('valor2').value)) {
 
 					let valor1 = Number(document.getElementById('valor1').value)
 					let valor2 = Number(document.getElementById('valor2').value)
