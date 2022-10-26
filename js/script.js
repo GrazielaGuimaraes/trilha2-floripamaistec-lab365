@@ -60,7 +60,7 @@
 
 
 			//Corrigir ddocument.getElementById('setorIdade').value
-			if(document.getElementById('setorIdade').value == ''){
+			if(document.getElementById('setorIdade').value == '')){
 
 				alert('Insira uma idade válida')
 
